@@ -1,8 +1,8 @@
-#Presentation de Genix.
+# Presentation de Genix.
 
 Genix est un programme de génie génétique principalement destiné à l’étude des SVT. Ce programme s’utilise dans un terminal GNU/Linux et comporte un menu interactif permettant des réaliser l’ensemble des traitements possibles. Il a été développé dans le but d’offrir une alternative aux logiciels (libres et non libres) pédagogiques de traitement de séquences déjà existant mais utilisables uniquement sous Windows.
 
-##Fonctionnalités.
+## Fonctionnalités.
 
 - Recherche et ajout de séquences (nucléotidiques et peptidiques)
 - Création de séquences (nucléotidiques et peptidiques)
@@ -21,21 +21,21 @@ Genix est un programme de génie génétique principalement destiné à l’étu
 - Création de fasta mono et multi-séquences
 - Affichage des scores et/ou matrices de similitudes associés aux alignements
 
-##Installation.
+## Installation.
 
 Genix est un programme qui fonctionne uniquement sous GNU Linux. Il est écrit en python et requiert une version de python >= 3.4
 
-###Installation des dépendances.
+### Installation des dépendances.
 
 Genix requiert des dépendances python qui ne sont pas présentes dans la librairie standard (numpy, biopython, xhtml2pdf, pandas) et des dépendances non python (Clustalw, Emboss, Rebase, Phylip).
 
-#####Installation des dépendances Python.
+##### Installation des dépendances Python.
 
 	pip install biopython xhtml2pdf pandas
 
-#####Dépendances non Python.
+##### Dépendances non Python.
 
-######Installer Clustalw
+###### Installer Clustalw
 
 http://www.clustal.org/clustal2/
 
@@ -43,7 +43,7 @@ Sur Debian:
 
 	sudo apt-get install clustalw
 
-######Installer Emboss
+###### Installer Emboss
 
 http://emboss.sourceforge.net/download/
 
@@ -51,7 +51,7 @@ Sur Debian:
 
 	sudo apt-get install emboss
 
-######Installer rebase pour emboss. 
+###### Installer rebase pour emboss. 
 
 Rebase est indispensable pour utiliser les fonctions liées aux enzymes de restriction; il s'agit notamment des fonctions restrict et remap.
 
@@ -83,7 +83,7 @@ Vous n'aurez pas forcément le version 707.... c'est à adapter
 
 Et voilà... c'est terminé.
 
-######Installer Phylip
+###### Installer Phylip
 
 http://evolution.genetics.washington.edu/phylip/install.html
 
@@ -92,7 +92,7 @@ Sur Debian:
 
 	sudo apt-get install phylip
 
-###Installation de genix
+### Installation de genix
 
 Téléchargement avec wget:
 
@@ -110,7 +110,7 @@ Rendre le programme executable:
 
 	~ $ cd genix && mv genix.py genix && sudo chmod 755 genix && sudo cp genix* /usr/local/bin && cd ..
 
-##Utilisation
+## Utilisation
 
 Accéder au menu interactif:
 
@@ -125,7 +125,7 @@ Accéder à l’aide:
 
 	~ $ genix -h
 
-##Désinstallation
+## Désinstallation
 
 	~ $ cd /usr/local/bin/
 	/usr/local/bin $ sudo rm genix*
