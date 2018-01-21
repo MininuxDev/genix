@@ -1,4 +1,4 @@
-# Presentation de Genix.
+# Présentation de Genix.
 
 Genix est un programme de génie génétique principalement destiné à l’étude des SVT. Ce programme s’utilise dans un terminal GNU/Linux et comporte un menu interactif permettant des réaliser l’ensemble des traitements possibles. Il a été développé dans le but d’offrir une alternative aux logiciels (libres et non libres) pédagogiques de traitement de séquences déjà existant mais utilisables uniquement sous Windows.
 
