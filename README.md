@@ -33,9 +33,9 @@ Genix requiert des dépendances python qui ne sont pas présentes dans la librai
 
 	pip install numpy biopython xhtml2pdf pandas
 
-##### Dépendances non Python.
+#### Dépendances non Python.
 
-##### Installer Clustalw
+#### Installer Clustalw
 
 http://www.clustal.org/clustal2/
 
@@ -43,7 +43,7 @@ Sur Debian:
 
 	sudo apt-get install clustalw
 
-##### Installer Emboss
+#### Installer Emboss
 
 http://emboss.sourceforge.net/download/
 
@@ -51,7 +51,7 @@ Sur Debian:
 
 	sudo apt-get install emboss
 
-##### Installer rebase pour emboss. 
+#### Installer rebase pour emboss. 
 
 Rebase est indispensable pour utiliser les fonctions liées aux enzymes de restriction; il s'agit notamment des fonctions restrict et remap.
 
@@ -83,7 +83,7 @@ Vous n'aurez pas forcément le version 707.... c'est à adapter
 
 Et voilà... c'est terminé.
 
-##### Installer Phylip
+#### Installer Phylip
 
 http://evolution.genetics.washington.edu/phylip/install.html
 
