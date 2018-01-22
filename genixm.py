@@ -214,15 +214,20 @@ def menu():
 	
 	r = options('Gerez votre session de travail','Convertir des séquences','Créer des séquences','Obtenir des informations sur des séquences','Aligner des séquences')
 
-	if r == "1": session()
+	if r == "1": 
+		session()
 	
-	elif r == "2": convert_m()
+	elif r == "2": 
+		convert_m()
 	
-	elif r == "3": creat_m()
+	elif r == "3": 
+		creat_m()
 	
-	elif r == "4": info_m()
+	elif r == "4": 
+		info_m()
 	
-	elif r == "5": aln_m()
+	elif r == "5": 
+		aln_m()
 	
 	
 
