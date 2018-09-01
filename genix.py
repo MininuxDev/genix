@@ -58,7 +58,7 @@ parser.add_argument('--license', action='store_true')
 
 parser.add_argument('--edi2fas', nargs = 2, help="transforme un edi en fasta le path du fichier edi doit se terminer en .edi tandis que le path du fichier fasta doit se terminer en .fas" )
 
-parser.add_argument('-m', action='store_true')
+parser.add_argument('-m', action='store_true', help="menu interactif")
 
 
 if os.getenv('LANG') == "fr_FR.UTF-8":
